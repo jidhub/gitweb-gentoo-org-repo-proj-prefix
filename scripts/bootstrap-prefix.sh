@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 # Copyright 2006-2018 Gentoo Foundation; Distributed under the GPL v2
 
+# DO NOT USE, developpement version only.
+
+# usage: wget https://github.com/jidhub/gitweb-gentoo-org-repo-proj-prefix.git/plain/scripts/bootstrap-prefix.sh ; chmod 755 bootstrap-prefix.sh
+
 trap 'exit 1' TERM KILL INT QUIT ABRT
 
 # some basic output functions

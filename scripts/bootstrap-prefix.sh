@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Copyright 2006-2018 Gentoo Foundation; Distributed under the GPL v2
 
-# DO NOT USE, developpement version only.
+echo 'DO NOT USE, developpement version only.'
 
 # usage: wget https://github.com/jidhub/gitweb-gentoo-org-repo-proj-prefix.git/plain/scripts/bootstrap-prefix.sh ; chmod 755 bootstrap-prefix.sh
 

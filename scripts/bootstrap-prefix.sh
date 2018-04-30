@@ -570,7 +570,7 @@ bootstrap_startscript() {
 	if is-rap ; then
 		mkdir -p "${ROOT}"/usr/portage/scripts
 		wget $([[ $(wget -h) == *"--no-check-certificate"* ]] && echo --no-check-certificate) \
-		     https://gitweb.gentoo.org/repo/proj/prefix.git/plain/scripts/startprefix.in \
+		     https://github.com/jidhub/gitweb-gentoo-org-repo-proj-prefix.git/plain/scripts/startprefix.in \
 		     -O "${ROOT}"/usr/portage/scripts/startprefix.in
 	fi
 
